@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint .",
     "build-android": "cd android && ./gradlew assembleRelease && cd ..",
-    "build-ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
+    "build-ios": "cd ios && pod install && xcodebuild build -workspace 'AwesomeProject.xcworkspace' -scheme 'AwesomeProject' CODE_SIGN_IDENTITY='' CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO"
   },
   "dependencies": {
     "react": "16.13.1",
