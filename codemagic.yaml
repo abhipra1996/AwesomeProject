@@ -3,8 +3,8 @@ workflows:
         name: AwesomeProject
         environment:
             vars:
-                XCODE_WORKSPACE: "{{AwesomeProject}}"
-                XCODE_SCHEME: "{{AwesomeProject}}"
+                XCODE_WORKSPACE: "{{ AwesomeProject }}"
+                XCODE_SCHEME: "{{ AwesomeProject }}"
             node: latest
         triggering:
             events:
