@@ -44,7 +44,7 @@ const App: () => React$Node = () => {
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
                             <Text style={styles.sectionTitle}>
-                                Hello Awesome
+                                Hello Awesome People
                             </Text>
                             {/* <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
