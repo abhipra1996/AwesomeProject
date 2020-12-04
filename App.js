@@ -37,7 +37,7 @@ const App: () => React$Node = () => {
                     {global.HermesInternal == null ? null : (
                         <View style={styles.engine}>
                             <Text style={styles.footer}>
-                                Awesome Project B-)
+                                Very Awesome Project
                             </Text>
                         </View>
                     )}
